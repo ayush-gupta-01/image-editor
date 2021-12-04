@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/photoshop-clone/static/css/main.7c96f15d.chunk.css",
-    "main.js": "/photoshop-clone/static/js/main.a694b6a5.chunk.js",
-    "main.js.map": "/photoshop-clone/static/js/main.a694b6a5.chunk.js.map",
-    "runtime-main.js": "/photoshop-clone/static/js/runtime-main.8657cfdb.js",
-    "runtime-main.js.map": "/photoshop-clone/static/js/runtime-main.8657cfdb.js.map",
-    "static/js/2.ed2c8bbb.chunk.js": "/photoshop-clone/static/js/2.ed2c8bbb.chunk.js",
-    "static/js/2.ed2c8bbb.chunk.js.map": "/photoshop-clone/static/js/2.ed2c8bbb.chunk.js.map",
-    "index.html": "/photoshop-clone/index.html",
-    "static/css/main.7c96f15d.chunk.css.map": "/photoshop-clone/static/css/main.7c96f15d.chunk.css.map",
-    "static/js/2.ed2c8bbb.chunk.js.LICENSE.txt": "/photoshop-clone/static/js/2.ed2c8bbb.chunk.js.LICENSE.txt"
+    "main.css": "/image-editor/static/css/main.7c96f15d.chunk.css",
+    "main.js": "/image-editor/static/js/main.a694b6a5.chunk.js",
+    "main.js.map": "/image-editor/static/js/main.a694b6a5.chunk.js.map",
+    "runtime-main.js": "/image-editor/static/js/runtime-main.549b55b8.js",
+    "runtime-main.js.map": "/image-editor/static/js/runtime-main.549b55b8.js.map",
+    "static/js/2.ed2c8bbb.chunk.js": "/image-editor/static/js/2.ed2c8bbb.chunk.js",
+    "static/js/2.ed2c8bbb.chunk.js.map": "/image-editor/static/js/2.ed2c8bbb.chunk.js.map",
+    "index.html": "/image-editor/index.html",
+    "static/css/main.7c96f15d.chunk.css.map": "/image-editor/static/css/main.7c96f15d.chunk.css.map",
+    "static/js/2.ed2c8bbb.chunk.js.LICENSE.txt": "/image-editor/static/js/2.ed2c8bbb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8657cfdb.js",
+    "static/js/runtime-main.549b55b8.js",
     "static/js/2.ed2c8bbb.chunk.js",
     "static/css/main.7c96f15d.chunk.css",
     "static/js/main.a694b6a5.chunk.js"
