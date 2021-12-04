@@ -1,4 +1,5 @@
 {
+  "homepage" : "http://ayush-gupta-01.github.io/image-editor",
   "name": "phomtoshop",
   "version": "0.1.0",
   "private": true,
@@ -38,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "homepage" : "http://ayush-gupta-01.github.io/photoshop-clone"
+    "gh-pages": "^3.2.3"
   }
 }
