@@ -1,3 +1,3 @@
 - **I created this cool Image Editor with the help of @WebDevSimplified.**
 - [Image Editor Tutorial](https://youtu.be/J243ncoInNE)
-- [Visit Website](https://github.com/ayush-gupta-01/image-editor/)
+- [Visit Website](https://ayush-gupta-01.github.io/image-editor/)
