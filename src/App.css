@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "image sidebar"
+    "slider sidebar";
+  height: 100vh;
+  width: 100vw;
+  background-color: #dadada;
+}
+
+
+.main-image {
+  grid-area: "image";
+  background-image: url("https://images.unsplash.com/photo-1477768663691-75454fd8e870?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80");
+  height: 100%;
+  width: 100%;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sidebar {
+  grid-area: "sidebar";
+  background-color: rgb(214, 166, 214);
+  border-left: 1px solid rgb(61, 7, 112);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: rgb(214, 166, 214);
+  padding: 1rem;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.sidebar-item:hover {
+  background-color: rgb(219, 126, 219);
+}
+
+.sidebar-item.active {
+  background-color: rgb(156, 38, 156);
+}
+
+.sidebar-item::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 2px;
+  bottom: 0px;
+  background-color: rgb(117, 14, 117);
+}
+
+/* removing last line */
+
+.sidebar-item:last-child::after {
+  display: none;
+}
+
+.slider-container {
+  grid-area: "slider";
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.slider {
+  width: 100%;
+  cursor: pointer;
+}
